@@ -1,6 +1,6 @@
 :root {
     --fuenteHeading: 'PT Sans', sans-serif;
-    --fuentePárrafos: 'Open Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
 
     --primario: #784D3C;
     --gris: #e1e1e1;
@@ -15,7 +15,7 @@ html {
     box-sizing: inherit;
 }
 body {
-    font-family: var(--fuentePárrafos);
+    font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
     line-height: 2;
 }
@@ -227,6 +227,21 @@ img {
 }
 
 /** Contacto **/
+
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.correcto {
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
 .contacto-bg {
     background-image: url(../img/contacto.jpg);
     height: 40rem;
